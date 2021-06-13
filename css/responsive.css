@@ -1,0 +1,140 @@
+@media (min-width:320px){
+  section{
+    overflow: hidden;
+  }
+  .banner-left-content {
+    padding-top: 0px;
+}
+.banner-right-content {
+  margin-top: 53px;
+}
+.security-box-item {
+  margin-bottom: 17px;
+}
+.trusted-title h2 {
+  font-size: 25px;
+}
+
+.trusted-brand-logo {
+  margin-bottom: 31px;
+}
+.well-come-box-left {
+  display: none;
+}
+#welcome-left-image {
+  
+  height: 370px;
+  border-top-right-radius: 17px;
+}
+.welcome-right-content {
+  color: #fff;
+  padding-right: 0px;
+  padding-left: 22px;
+  padding-top: 61px;
+}
+.welcome-right-title h2 {
+  font-size: 27px;
+  margin-bottom: 43px;
+}
+
+#why-choose-right {
+  height: 240px;
+  margin-top: 48px;
+}
+.col-lg-3.counyer-box {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.service-box {
+  margin-bottom: 20px;
+}
+.get-content {
+  padding-top: 0px;
+}
+.get-content h2 {
+  font-size: 27px;
+}
+#get-free {
+  height: 480px;
+}
+.get-content p {
+  opacity: .8;
+  padding: 0 0px;
+  margin-bottom: 45px;
+}
+.footer-logo {
+  margin-top: -3px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.footer-menu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-menu ul li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 11px;
+}
+.text-end {
+  text-align: center!important;
+}
+ul.footer-details-menu {
+  padding: 0;
+  text-align: center;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(249 242 242 / 55%);
+  border-color: rgb(255 255 255);
+  background: white;
+}
+}
+
+@media (min-width:992px){
+  li.nav-item {
+    margin-left: 19px;
+}
+.banner-left-content h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 61px;
+  margin-bottom: 20px;
+}
+.banner-right-content {
+  margin-top: 0px;
+}
+#welcome-left-image {
+  height: 755px;
+  border-top-right-radius: 17px;
+}
+.well-come-box-left {
+  width: 61%;
+  background: #011732;
+  color: #fff;
+  padding: 36px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+}
+#why-choose-right {
+  height: 516px;
+  margin-top: 0;
+}
+.get-content {
+  padding-top: 30px;
+}
+ul.footer-details-menu {
+  padding: 0;
+  text-align: left;
+}
+.text-end {
+  text-align: end!important;
+}
+.footer-logo {
+  margin-top: -3px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+}

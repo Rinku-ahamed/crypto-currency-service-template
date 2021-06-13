@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+/*================== google font================*/
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #011732;
+}
+a:hover{
+  color: white !important;
+}
+#header{
+  background-image: linear-gradient(180deg,#011631cf,#011732), url(../images/3074187.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #0ec9ac;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+  color: #0ec9ac; 
+}
+.d-flex.header-btn {
+  margin-left: 66px;
+}
+
+.d-flex.header-btn a {
+  text-decoration: none;
+  background: #0EC9AC;
+  color: #fff;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+li.nav-item {
+  margin-left: 31px;
+}
+.banner-right-content img {
+  width: 100%;
+}
+section#banner {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.banner-left-content h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 61px;
+  margin-bottom: 20px;
+}
+
+.banner-left-content p {
+  color: #fff;
+  opacity: .6;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.learn-more-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #0ec9ac;
+  color: #fff;
+  padding: 19px 40px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.learn-more-btn {
+  margin-top: 60px;
+}
+
+.banner-left-content {
+  padding-top: 55px;
+}
+.security-box-item h2 span img {
+  width: 10%;
+  margin-right: 10px;
+  margin-top: -11px;
+}
+.security-box-item:hover {
+  transition: all .6s;
+  transform: translateY(-10px);
+}
+.security-box-item h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.security-box-item {
+  background: #021f42;
+  border-radius: 7px;
+  padding: 35px 43px;
+}
+
+.security-box-item p {
+  color: #fff;
+  opacity: .6;
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+section#security-box {
+  padding: 50px 0;
+
+}
+
+section#trusted-company {
+  padding: 60px 0;
+}
+
+.trusted-title {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.trusted-brand-logo img {
+  width: 63%;
+  filter: brightness( 200% ) contrast( 200% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+
+.trusted-title h2 {
+  color: #fff;
+  font-size: 29px;
+}
+.trusted-brand-logo {
+  text-align: center;
+}
+
+
+#welcome-left-image{
+  background-image: linear-gradient(#0117326b,#0117326b), url(../images/female-hacker-wearing-a-hoodie-using-a-dangerous-virus.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 755px;
+  border-top-right-radius: 17px;
+}
+section#welcome-cryptiva {
+  overflow: hidden;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.well-come-box-left {
+  width: 46%;
+  background: #011732;
+  color: #fff;
+  padding: 36px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.well-come-box-left h3 {
+  font-size: 20px;
+}
+
+.well-come-box-left p {
+  font-size: 14px;
+  opacity: .6;
+}
+
+.well-come-box-left a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #06b5a4;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.welcome-right-content {
+  color: #fff;
+  padding-right: 117px;
+  padding-left: 80px;
+  padding-top: 63px;
+}
+
+.welcome-right-content h4 {
+  font-size: 16px;
+  color: #05ab9d;
+  margin-bottom: 12px;
+}
+
+.welcome-right-title h2 {
+  font-size: 36px;
+  margin-bottom: 43px;
+}
+
+.welcome-right-title p {
+  opacity: .6;
+  font-size: 15px;
+}
+.col-lg-6.High-Quality img {
+  width: 19%;
+  margin-bottom: 22px;
+}
+
+.col-lg-6.High-Quality {
+  margin-top: 40px;
+}
+
+.col-lg-6.High-Quality h3 {
+  font-size: 23px;
+}
+
+.col-lg-6.High-Quality p {
+  font-size: 14px;
+  opacity: .6;
+  margin-top: 13px;
+}
+.get-free-btn a {
+  text-decoration: none;
+  background: #08c9ac;
+  color: #fff;
+  padding: 16px 44px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.get-free-btn {
+  margin-top: 47px;
+}
+
+#why-choose-right{
+  background-image: linear-gradient(#0117326b,#0117326b), url(../images/young-hacker-making-a-dangerous-virus-for-cyber-attacks-e1615279114966.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 516px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.why-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-list ul li {
+  font-size: 15px;
+  opacity: .6;
+  line-height: 34px;
+}
+
+.why-list ul li span {
+  margin-right: 7px;
+  color: #08c9ac;
+}
+
+section#counter {
+  padding: 70px 0px;
+}
+
+.col-lg-12.counter-content {
+  background: #021f42;
+  padding: 31px 10px;
+  border-radius: 6px;
+}
+
+.col-lg-3.counyer-box {
+  text-align: center;
+}
+
+.col-lg-3.counyer-box span i {
+  color: #08c9ac;
+  font-size: 39px;
+}
+
+.col-lg-3.counyer-box {}
+
+.col-lg-3.counyer-box h3 {
+  color: #fff;
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+.col-lg-3.counyer-box p {
+  color: #fff;
+  opacity: .6;
+}
+section#service {
+  padding: 70px 0;
+}
+
+.service-title {
+  text-align: center;
+}
+
+.service-title h3 {
+  color: #08c9ac;
+  font-size: 20px;
+}
+
+.service-title h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 11px;
+}
+
+.service-box {
+  background: #021f42;
+  border-radius: 6px;
+  text-align: center;
+  padding: 31px 30px;
+}
+
+.service-box img {
+  width: 21%;
+  margin-bottom: 23px;
+}
+
+.service-box h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.service-box p {
+  color: #fff;
+  opacity: .6;
+  font-size: 14px;
+}
+
+.service-box a {
+  text-decoration: none;
+  color: #0ba193;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+.row.service-content {
+  padding-top: 60px;
+}
+
+
+#get-free{
+  background-image: linear-gradient(#01173282,#01173282), url(../images/top-view-of-the-hands-of-a-programmer-on-his-laptop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+  background-attachment: fixed;
+  height: 430px;
+}
+
+.get-content {
+  text-align: center;
+  color: #fff;
+}
+
+.get-content h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.get-content p {
+  opacity: .8;
+  padding: 0 166px;
+  margin-bottom: 45px;
+}
+
+.get-content a {
+  text-decoration: none;
+  background: #0a9c8f;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 27px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.get-content {padding-top: 40px;}
+
+.footer-logo a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  }
+  footer#footer {
+    padding-top: 90px;
+    padding-bottom: 17px;
+}
+.footer-icon a i {
+  color: white;
+  background: #0ac9ac;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+
+.footer-menu ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  margin-right: 16px;
+}
+
+.footer-logo {
+  margin-top: -3px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #032a5a!important;
+  padding-bottom: 50px;
+}
+
+p.copyright {
+  color: #fff;
+}
+
+ul.footer-details-menu {
+  padding: 0;
+}
+
+ul.footer-details-menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.footer-details-menu li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+}
+
+.service-box:hover img{
+  transform:translateY(-7px);
+  -webkit-transform:translateY(-7px);
+  -moz-transform:translateY(-7px);
+  -ms-transform:translateY(-7px);
+  -o-transform:translateY(-7px);
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
